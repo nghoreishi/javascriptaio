@@ -4,10 +4,10 @@ let position = 0;
 
 function handleKeyPress(e) {
   if (e.code === "ArrowLeft") {
-    position = position - 40;
+    position = position - 50;
   }
   if (e.code === "ArrowRight") {
-    position = position + 40;
+    position = position + 50;
   }
   if (position < 0) {
     position = 0;
